@@ -1,6 +1,7 @@
 # Read - Write XLS File
 # 20180926 thomas.stump@bluewin.ch
-# New comment added
+#
+# This R Script opens an XLS File and stores it under a filename extension yyyymmdd
 
 # Define path to the XLS file
 
