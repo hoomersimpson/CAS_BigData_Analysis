@@ -1,5 +1,6 @@
 # Read - Write XLS File
 # 20180926 thomas.stump@bluewin.ch
+# New comment added
 
 # Define path to the XLS file
 
