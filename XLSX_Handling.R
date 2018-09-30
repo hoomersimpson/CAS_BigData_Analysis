@@ -1,6 +1,5 @@
 # Read - Write XLS File
 # 20180926 thomas.stump@bluewin.ch
-# CAS HWZ 2018
 
 # Define path to the XLS file
 
