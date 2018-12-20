@@ -1,0 +1,43 @@
+---
+title: "HWZ CAS BigData - Cluster Analysis"
+author: "thomas.stump@bluewin.ch"
+date: "12/13/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## CLUSTER ANALYTICS
+
+thomas.stump@bluewin.ch 
+HWZ Big Data Anlysis
+
+The following script depicts the cluster analysi
+ ased on random genarated data, covering income vs.
+ductional lavel (yeary in scool)
+
+
+## Generate data
+
+```{r cars}
+inc1 <- rnorm(100, mean = 10000, sd = 5000)
+inc2 <- rnorm(100, mean = 40000, sd = 5000)
+inc3 <- rnorm(100, mean = 70000, sd = 5000)
+inc <- c(inc1, inc2, inc3)
+
+head(inc)
+tail(inc)
+summary(inc)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
